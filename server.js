@@ -35,6 +35,10 @@ app.use(express.static(__dirname + '/public'));
 //   res.sendFile(path + "404.html");
 // });
 
-app.listen(3000,function(){
-  console.log("Live at Port 3000");
+var port = process.env.PORT || 3000;
+app.listen(port, function() {
+    console.log('Our app is running on http://localhost:' + port);
 });
+// app.listen(3000,function(){
+//   console.log("Live at Port 3000");
+// });
