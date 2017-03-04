@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+
+    <div class="keypad-wrapper">
+      <div class="keypad">
+        <div class="row">
+          <div data-key="55" class="key">
+            <kbd>7</kbd>
+          </div>
+          <div data-key="56" class="key">
+            <kbd>8</kbd>
+          </div>
+          <div data-key="57" class="key">
+            <kbd>9</kbd>
+          </div>
+        </div> <!-- end of first row -->
+
+        <div class="row">
+          <div data-key="52" class="key">
+            <kbd>4</kbd>
+          </div>
+          <div data-key="53" class="key">
+            <kbd>5</kbd>
+          </div>
+          <div data-key="54" class="key">
+            <kbd>6</kbd>
+          </div>
+        </div> <!-- end of second row -->
+
+        <div class="row">
+          <div data-key="49" class="key">
+            <kbd>1</kbd>
+          </div>
+          <div data-key="50" class="key">
+            <kbd>2</kbd>
+          </div>
+          <div data-key="51" class="key">
+            <kbd>3</kbd>
+          </div>
+        </div> <!-- end of third row -->
+
+        <div class="row">
+          <div data-key="48" class="key">
+            <kbd>0</kbd>
+          </div>
+          <div data-key="67" class="key">
+            <kbd>C</kbd>
+          </div>
+          <div data-key="8" class="key">
+            <kbd>Del</kbd>
+          </div>
+        </div> <!-- end of fourth row -->
+      </div>
+    </div>
+
+    <div id="display-wrapper">
+      <div id="display">
+        <h1 id="time">00:00:00</h1>
+        <input id="countDownButton" type="button" value="Start Countdown">
+      </div>
+    </div>
+
+    <audio src="sounds/cuckoo_clock2_x.wav" class="alarm"></audio>
+
+    <script type="text/javascript" src="time.js"></script>
+  </body>
+</html>

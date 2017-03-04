@@ -1,0 +1,15 @@
+{
+  "name": "timer toy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "time.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Noah Milstein",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.0"
+  }
+}
