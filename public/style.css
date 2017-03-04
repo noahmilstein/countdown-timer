@@ -2,13 +2,15 @@
   width: 50px;
   height: 50px;
   display: inline-block;
+  -webkit-transition: all .07s;
   transition: all .07s;
   text-align: center;
   line-height: 50px;
 }
 
 .key:hover {
-  transform: scale(1.05);
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
   box-shadow: 0 0 1px black;
 }
 
@@ -34,7 +36,8 @@
 }
 
 .active {
-  transform: scale(1.1) !important;
+  -webkit-transform: scale(1.1) !important;
+          transform: scale(1.1) !important;
   box-shadow: 0 0 10px black !important;
   border-radius: 5px !important;
 }
