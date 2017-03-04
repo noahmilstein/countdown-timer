@@ -1,1 +1,1 @@
-web: node time.js
+web: npm start
